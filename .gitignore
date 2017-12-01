@@ -1,2 +1,14 @@
-node_modules
-npm-debug.log
+# Ignore Everything
+/*
+
+# Sources
+!*.json
+!*.js
+
+# Git
+!.gitattributes
+!.gitignore
+!README*
+!LICENSE*
+
+# Unwanted crap

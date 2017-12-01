@@ -1,38 +1,7 @@
-## left-pad
+[![npm](https://img.shields.io/badge/npm-unpublished-lightgrey.svg)](https://www.npmjs.com/~exe-boss)
+[![License](https://img.shields.io/github/license/ExE-Boss/left-pad.svg)](https://github.com/ExE-Boss/left-pad/blob/master/LICENSE)
 
-String left pad
+left-pad
+========
 
-[![Build Status][travis-image]][travis-url]
-
-## Install
-
-```bash
-$ npm install left-pad
-```
-
-## Usage
-
-```js
-const leftPad = require('left-pad')
-
-leftPad('foo', 5)
-// => "  foo"
-
-leftPad('foobar', 6)
-// => "foobar"
-
-leftPad(1, 2, '0')
-// => "01"
-
-leftPad(17, 5, 0)
-// => "00017"
-```
-
-**NOTE:** The third argument should be a single `char`. However the module doesn't throw an error if you supply more than one `char`s. See [#28](https://github.com/stevemao/left-pad/pull/28).
-
-[travis-image]: https://travis-ci.org/stevemao/left-pad.svg?branch=master
-[travis-url]: https://travis-ci.org/stevemao/left-pad
-
-## Typings
-
-Typings copied from [@types/left-pad](https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/left-pad) for convenience.
+JavaScript String left padding utility
